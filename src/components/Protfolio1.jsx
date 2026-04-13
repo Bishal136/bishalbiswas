@@ -4,6 +4,16 @@ const Portfolio1 = () => {
     // Project data array with links
     const projects = [
         {
+            id: 4,
+            title: "Collage Project ",
+            description: "Full responsive website.",
+            image: 'auto1.png',
+            technologies: ["React js", "Tailwind CSS"],
+            liveLink: "https://kdc-autoregulator-gassafety.netlify.app/",
+            // githubLink: "https://github.com/username/ecommerce",
+            isExternal: true
+        },
+        {
             id: 3,
             title: "Multi Page Website ",
             description: "Full responsive website.",

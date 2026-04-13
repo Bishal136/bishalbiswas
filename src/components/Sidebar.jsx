@@ -4,7 +4,7 @@ import Social from './Social'
 
 const Sidebar = () => {
   return (
-     <div className='sidebar  h-[90vh] bg-[#2a2a2a] border border-[#3a3a3a] rounded-2xl p-10 sticky top-10 '>
+     <div className='sidebar  h-[90vh] bg-[#2a2a2a] border border-[#3a3a3a] rounded-2xl p-10 md:sticky top-10 '>
 
             {/* Profile */}
             <div className='profile items-center flex  flex-col' >
